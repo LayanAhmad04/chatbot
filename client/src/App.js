@@ -58,7 +58,7 @@ function Dashboard({ user, onLogout, onOpenProject, onToggleTheme }) {
         // ignore
       }
     })();
-  }, []);
+  }, [token]);
 
   async function createProject(e) {
     e.preventDefault();
