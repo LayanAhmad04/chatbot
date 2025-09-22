@@ -1,0 +1,9 @@
+# Node modules
+client/node_modules
+server/node_modules
+
+# Env files
+server/.env
+
+# Build outputs
+client/build
